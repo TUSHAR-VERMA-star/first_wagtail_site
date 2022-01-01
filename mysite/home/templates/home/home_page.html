@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block content %}
+    {{ page.body|richtext }}
+{% endblock %}
+
+{% comment %} {% extends "base.html" %}
+{% block title %}
+my new site
+{% endblock title %}
+
+{% block content %}
+<h1>
+    my name is tushar verma 
+</h1>
+{% endblock content %} {% endcomment %}
